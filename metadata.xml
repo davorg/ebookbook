@@ -1,0 +1,9 @@
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title id="main">Ebook Book</dc:title> 
+<meta refines="#main" property="title-type">main</meta>
+<dc:language>en-GB</dc:language> 
+<dc:creator opf:file-as="Cross, Dave" opf:role="aut">Dave Cross</dc:creator> 
+<dc:publisher>Pub Name Here</dc:publisher>
+<dc:date opf:event="publication">2016-03-17</dc:date>
+<dc:rights>Copyright ©2016 by Dave Cross</dc:rights>
+</metadata>
