@@ -1,5 +1,5 @@
-chapters/why_text.md
-chapters/which_text.md
+chapters/overview.md
+chapters/text_formats.md
 chapters/markdown.md
 chapters/more_markdown.md
 chapters/pandoc.md
