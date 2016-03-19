@@ -12,7 +12,7 @@ pdf: $(book).pdf
 $(book).mobi: $(book).epub
 	kindlegen -verbose $(book).epub
 
-$(book).epub: $(chapters) epub.css
+$(book).epub: $(chapters) epub.css title.txt metadata.xml epub.css cover.png chapters.txt
 	pandoc -o $(book).epub title.txt $(chapters) --epub-metadata=metadata.xml --toc --toc-depth=2 --epub-stylesheet=epub.css --epub-cover-image=cover.png
 
 $(book).pdf: $(book).epub
