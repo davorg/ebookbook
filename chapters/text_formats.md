@@ -38,7 +38,7 @@ differences are as it would with a text file.
 And then there's revision control. Geeks like to keep track of their
 work. Which means that we love revision control systems like
 Git. Revision control systems give us "checkpoints" that we can go
-back to if they end up making changes to code that end up being 
+back to if we make changes to code that end up being
 unsuccessful. When problems emerge in code, revision control systems
 give us the ability to compare older, working, code with the newer,
 broken, version and work out how it was broken and (more importantly)
