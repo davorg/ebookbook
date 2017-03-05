@@ -63,10 +63,34 @@ And the second-level heading for this section looks like this:
 
     ## Headings
 
-**TODO:** Underline headings
+There is an alternative mechanism for creating first- and second-level headings. You can simply underline the text with equals signs (for a first-level heading) or dashes (for a second-level heading). So I could have set up the heading for this chapter using this:
+
+    Introduction to Markdown
+    ========================
+
+And the heading for this section like this:
+
+    Headings
+    --------
+
+It doesn't matter which of these two approaches you use and you're free to mix the two methods in the same document.
 
 ## Quotations
 
+You will sometimes want to include an extended quotation from another source and it is traditional that quoted paragraphs are typeset in a way that differentiates them from the rest of the text. You can create paragraphs like this by including a '>' character at the start of the quoted paragraph. So if you had a paragraph like this in your document:
+
+    > There is grandeur in this view of life ...
+
+It would be displayed like this:
+
+> There is grandeur in this view of life ...
+
+The standard appearance for a quoted paragraph is to indent the quotation. In the chapter on Cascading Stylesheets we will see ways to alter this behaviour.
+
 ## Links
+
+These days, readers will expect to see links to further information in your work. If your work is published as a web page or an ebook, then such links will be rendered as a clickable link which will open a web page. Obviously, that doesn't work in a printed book, but there are ways (which we will explore later in this book) of displaying the link to the reader.
+
+There are two ways to define links in your document - one of them puts the links inline with the linking text and the other puts the links at the end of the document, rather like a footnote.
 
 ## Images
